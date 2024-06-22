@@ -1,7 +1,6 @@
 def position_caracter(instruction):
     etage = 0
     nb_caractere = 0
-    nb_caractere = 0
     while etage != -1 and nb_caractere < len(instruction):
         char = instruction[nb_caractere]
         if char == '(':
